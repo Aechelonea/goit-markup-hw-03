@@ -131,7 +131,7 @@ main {
 
 .box {
   background-color: var(--dark-background-color);
-  padding: 200px 452px 200px 452px;
+  padding: 200px 0px 200px 0px;
   width: 100%;
 }
 
@@ -279,6 +279,10 @@ main {
   margin-bottom: 0px;
 }
 
+.team-description img {
+  border: 0px;
+}
+
 .team-description li {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -317,24 +321,33 @@ main {
   margin: 0px;
 }
 
+.portfolio-description img {
+  margin-bottom: -5px;
+}
+
+.portfolio-description div {
+  border: 1px solid #EEEEEE;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 110px;
+}
+
 .portfolio-description li {
   width: 370px;
   height: 404px;
   background: #FFFFFF;
-  border: 1px solid #EEEEEE;
   box-sizing: border-box;
 }
 
 .portfolio-description h5 {
   padding-left: 24px;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 0.03em;
   color: var(--title-color);
   margin: 0px;
-  padding-top: 20px;
-  padding-bottom: 4px;
 }
 
 .portfolio-description p {
